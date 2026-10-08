@@ -1,0 +1,14 @@
+server:
+  port: 8015
+spring:
+  application:
+    name: alert-job-gateway
+  devtools:
+    add-properties: false
+    livereload:
+      enabled: false
+  cloud:
+    config:
+      uri: http://config:8011
+  profiles:
+    active: dev

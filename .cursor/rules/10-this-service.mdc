@@ -1,0 +1,8 @@
+---
+description: Repositoriy alert-job-gateway
+alwaysApply: true
+---
+
+# alert-job-gateway
+
+API Gateway and OAuth2. Route to core/parser/notification/llm via static URIs in config.
